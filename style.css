@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+    font-size: 15px;
+}
+.swiper{
+    width: 600px;
+    height: 630px;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 140px !important;
+    left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 140px !important;
+    right: auto;
+}
